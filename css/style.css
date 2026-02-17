@@ -44,6 +44,29 @@ h1{
     text-align: right;
 }
 
+.regles p{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 2.5rem; 
+    line-height: 6;
+    
+    color: black;
+}
+
+.regles .rond{
+    font-size: 1.88rem;
+    color: #D35400;
+
+    border: 5px solid #D35400;
+    border-radius: 100%;
+
+    
+}
+
+.regles a{
+    text-decoration: none;
+    
+}
 
 /*-------------------------------------------------------------------------------
 COMPENENTS
@@ -64,7 +87,38 @@ COMPENENTS
 }
 
 
+/*section*/
+
+ .articles_regles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 67px;
 
 
 
+    
+}
 
+.regles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.regles .rond{
+    width: 210px;
+    height: 210px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+.article2 .article4{
+
+    order: 1;
+}
