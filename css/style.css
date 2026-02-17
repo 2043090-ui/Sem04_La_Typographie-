@@ -1,0 +1,70 @@
+/*-------------------------------------------------------------------------------
+GÉNÉRIQUE 
+--------------------------------------------------------------------------------*/
+
+html{
+    box-sizing: border-box;
+}
+
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+
+/*-------------------------------------------------------------------------------
+ÉLÉMENTS
+--------------------------------------------------------------------------------*/
+
+body{
+    padding: 0;
+    margin: 0;
+
+    background-color: white;
+    color: black;
+
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+h1{
+    font-size: 6rem;
+    letter-spacing: 30px;
+
+    padding: 43px 0;
+}
+
+.citation{
+    font-size: 3rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    letter-spacing: 3.8px;
+}
+
+.citation p{
+    text-align: right;
+}
+
+
+/*-------------------------------------------------------------------------------
+COMPENENTS
+--------------------------------------------------------------------------------*/
+
+/*wrapper*/
+
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/*header*/
+
+.header{
+    background-color:#34495E;
+    color: white;
+}
+
+
+
+
+
+
