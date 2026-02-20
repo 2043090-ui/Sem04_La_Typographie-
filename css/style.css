@@ -31,6 +31,7 @@ h1{
     letter-spacing: 32px;
 
     padding: 43px 0;
+    margin-top: 0
 }
 
 .citation{
@@ -48,13 +49,15 @@ h1{
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-size: 2.5rem; 
-    line-height: 6;
+    line-height: 60px;
     
     color: black;
 }
 
 .regles .rond{
     font-size: 1.88rem;
+    font-weight: 700;
+
     color: #D35400;
 
     border: 5px solid #D35400;
@@ -76,6 +79,36 @@ a:hover .rond{
     background-color: #BDC3C7;
 }
 
+.p_infos span{
+    font-weight: 700;
+}
+
+.p_infos{
+    font-size: 1.25rem ;
+    
+    line-height: 40px;
+
+    font-weight: 400;
+}
+
+ .footer p{
+    font-size: 1.25rem ;
+    font-weight: 700;
+}
+
+.icone{
+    
+    border: 3px solid #BDC3C7;
+    border-radius: 100%;
+
+    background-color: white;
+}
+
+p  .material-symbols-outlined {
+    
+    font-weight: 600;
+    font-size: 1.7rem;
+}
 /*-------------------------------------------------------------------------------
 COMPENENTS
 --------------------------------------------------------------------------------*/
@@ -129,11 +162,36 @@ COMPENENTS
 
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 
 }
 
 
 .p_infos{
     width: 470px;
+
+}
+
+.footer{
+    background-color:#2980B9 ;
+}
+
+.footer .wrapper{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+
+    height: 100px;
+    padding-right: 50px ;
+   
+   
+}
+
+.icone{
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items:center ;
 }
